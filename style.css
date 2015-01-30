@@ -1,26 +1,119 @@
 a {
-  color: black;
+  color: rgb(102, 102, 102);
   text-decoration: none;
 }
+.href{
 
-.top{
-  background-color: gray;
-  color:black;
-  text-align:left;
-  padding:10px; 
 }
 
-.logo{
-  border-style: solid;
-  border-color: white; 
-  border-width: 2px;
-  padding: 3px;
-  font-family: Verdana;
-  font-size: 20px;
+.title{
+font-family: Arial;
+font-size: 13px;
+}
+
+.container{
+  display: block;
+  margin-right: 0;
+  padding-left: 0;
+}
+.sidebar{
+  display: inline-block;
+  width:25%;
+  vertical-align: top;
+  color: rgb(170, 170, 170);
+  text-align: left;
+  padding: 31px;
+  box-sizing: border-box;
+}
+
+.sidebar-title{
+  color: black;
+  font-family: Arial;
+  font-size: 16px; 
+ 
+}
+.blog-desc{
+  color: rgb(170, 170, 170);
+  font-size: 17px;
+}
+.content{
+  display: inline-block;
+  vertical-align: top;
+  width: 65%;
+  padding-left: 10px;
+}
+
+.search-title{
+  color: rgb(170, 170, 170);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Arial;
+   box-sizing: border-box;
+}
+
+.sidebar-title{
+  color: #666;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+.h1{
+  font-family: Arial;
+  font-size: 40px;
+}
+
+.header-background{
+  background-size: auto;
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: -10px;
+  margin-left: 0px;
+  margin-right: 0%;
+  position: relative;
+}
+
+.body{
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.logo1{
+  width: 96px;
+  border: solid 5px white;
+  border-radius: 70px;
+  position: relative;
+  top: -54px;
+  left: 101px;
+}
+
+.logo2{
+  width: 70px;
+  position: relative;
+  border-radius: 35px;
+}
+
+
+.tiy-logo-1 {
+  height: 0px;
 }
 
 .block{
-  margin: 10px;
-  border: solid 1px red;
-  padding:15px;
+
 }
+
+.footer {
+  border-top: solid 1px gray;
+}
+
+.footer-text, .tiy-logo-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-text {
+  margin-top: 20px;
+}
+
+
