@@ -6,11 +6,6 @@ a {
 
 }
 
-.title{
-font-family: Arial;
-font-size: 13px;
-}
-
 .container{
   display: block;
   margin-right: 0;
@@ -50,15 +45,15 @@ font-size: 13px;
   font-weight: 700;
   font-size: 14px;
   font-family: Arial;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .sidebar-title{
   color: #666;
   text-align: left;
   text-transform: uppercase;
-
 }
+
 .h1{
   font-family: Arial;
   font-size: 40px;
@@ -82,7 +77,7 @@ color: rgb(51, 51, 51);
   position: relative;
 }
 
-.body{
+.middle{
   display: inline-block;
   margin-top: 40px;
 }
@@ -120,24 +115,158 @@ color: rgb(51, 51, 51);
 
 }
 
-.footer {
-  border-top: solid 1px gray;
+.tumbler{
+  width: 20%;
+  display: block;
+  border: solid;
+  border-bottom: 1px gray;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
-.footer-text, .tiy-logo-2 {
+.buttons{
+  color: rgb(102, 102, 102);
+  display: inline-block;
+  position: static;
+}
+
+.footer {
+  border-top: solid 1px;
+  border-color: rgb(238, 238, 238);
+  display: block;
+  margin-top: 100px;
+  padding: 60px 0px;   
+}
+
+.right-foot, .tiy-logo-2 {
   display: inline-block;
   vertical-align: top;
+}
+.tiy-logo-2{
+  border-radius: 35px
+}
+
+.left-foot{
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-left: -10px;
+  text-align: right;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+}
+.footer-left{
+  width: 64px;
+  position: relative;
+  border-radius: 35px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.right-foot{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  line-height: 26px;
+  color: rgb(170, 170, 170);
+  margin-top: -17px;
+}
+
+.foot-font1{
+  font-size: 14px;
+  font-family: Arial;
+  color: rgb(170, 170, 170);
+}
+
+.foot-font2{
+  font-size: 17px;
+  font-family: PT Serif;
+  color: rgb(170, 170, 170);
+}
+
+.foot-font3{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(221, 221, 221);
 }
 
 .footer-text {
   margin-top: 20px;
 }
 
-.footertheme{
-
+.theme-foot{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  line-height: 26px;
+  color: rgb(102, 102, 102);
 }
 
 .tumbler{
+  width: 100%;
+  bottom-border: 1px;
+  border-bottom-color: rgb(170, 170, 170);
+  padding-top: 10px;
+  padding-bottom: 60px;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.buttons{
+  display: block;
+}
+
+}
+.Like, .Reblog, .Share{
+  color: rgb(102, 102, 102);
+  padding: 10px;
+  display: inline-block;
+  position: static;
+}
+.sticky-wrap{
   position: fixed;
+  border-color: gray;
+  height: 50px;
+  width: 10%;
+  display: block;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+
+.top-wrap{
+
+}
+
+.never{
+
+}
+
+.closewindow{
+
+}
+
+.bottom-wrap{
+
+}
+
+.footerleft{
+
+}
+
+.mid-wrap{
+
+}
+
+.tiydc1{
+
+}
+
+.tiydc2{
+
+}
+
+.follow{
 
 }
