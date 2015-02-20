@@ -1,0 +1,51 @@
+<!-- link rel="stylesheet" type="text/css" href="normalize.css" -- >
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header{
+display:block;
+border-style: solid;
+border-color: white;
+margin-top: 0;
+box-sizing: border-box;
+}
+
+.body{
+display: inline-block;
+w
+}
+
+.sidebar{
+  display: inline-block;
+}
+
+
+.img{
+  display: block;
+}
+
+
+
+.top{
+  background-color: gray;
+  color:black;
+  text-align:left;
+  padding:10px; 
+}
+
+.TheIronYardLogo{
+  border-style: solid;
+  border-color: white; 
+  border-width: 2px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.block{
+  margin: 10px;
+  border: solid 1px red;
+  padding:15px;
+}

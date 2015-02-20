@@ -2,15 +2,14 @@ a {
   color: rgb(102, 102, 102);
   text-decoration: none;
 }
-.href{
 
-}
 
 .container{
   display: block;
   margin-right: 0;
   padding-left: 0;
 }
+
 .sidebar{
   display: inline-block;
   width:25%;
@@ -34,7 +33,7 @@ a {
 .content{
   display: inline-block;
   vertical-align: top;
-  width: 65%;
+  width: 50%;
   padding-left: 10px;
 }
 
@@ -94,7 +93,7 @@ color: rgb(51, 51, 51);
 
 .logo2{
   width: 64px;
-  position: relative;
+  position: absolute;
   border-radius: 35px;
   margin-left: 95px;
   text-align: right;
@@ -105,14 +104,11 @@ color: rgb(51, 51, 51);
   color: rgb(102, 102, 102);
   line-height: 26px;
   font-family: PT Serif, serif;
+  margin-bottom: 40px;
 }
 
 .tiy-logo-1 {
   height: 0px;
-}
-
-.block{
-
 }
 
 .tumbler{
@@ -136,6 +132,12 @@ color: rgb(51, 51, 51);
   display: block;
   margin-top: 100px;
   padding: 60px 0px;   
+}
+
+.right-foot{
+  margin-left: 200px
+  margin-top: -20px;
+
 }
 
 .right-foot, .tiy-logo-2 {
@@ -167,46 +169,43 @@ color: rgb(51, 51, 51);
 .right-foot{
   display: inline-block;
   vertical-align: top;
-  text-align: left;
-  line-height: 26px;
+  line-height: 28px;
   color: rgb(170, 170, 170);
-  margin-top: -17px;
+  margin-top: -20px;
 }
 
 .foot-font1{
   font-size: 14px;
   font-family: Arial;
   color: rgb(170, 170, 170);
+  margin-bottom: 1px;
+  margin-left: 200px;
 }
 
 .foot-font2{
-  font-size: 17px;
-  font-family: PT Serif;
+  font-size: 18px;
+  font-family: 'PT Serif', sans-serif;
   color: rgb(170, 170, 170);
+  margin-top:  -3px;
+  margin-bottom: 56px;
+  margin-left: 200px;
 }
 
 .foot-font3{
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   color: rgb(221, 221, 221);
+  margin-left: 200px;
 }
 
 .footer-text {
   margin-top: 20px;
 }
 
-.theme-foot{
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  line-height: 26px;
-  color: rgb(102, 102, 102);
-}
-
-.tumbler{
+.tumblr{
   width: 100%;
   bottom-border: 1px;
-  border-bottom-color: rgb(170, 170, 170);
+  border-bottom-color: rgb(213, 213, 213);
   padding-top: 10px;
   padding-bottom: 60px;
   display: block;
@@ -218,55 +217,225 @@ color: rgb(51, 51, 51);
   display: block;
 }
 
-}
-.Like, .Reblog, .Share{
-  color: rgb(102, 102, 102);
-  padding: 10px;
+.tumblr-buttons{
   display: inline-block;
-  position: static;
+  text-align: right;
+  margin-bottom: 6px;
 }
-.sticky-wrap{
-  position: fixed;
-  border-color: gray;
-  height: 50px;
-  width: 10%;
+
+.like-button{
+  position: absolute;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.like-icon{
+  width: 25px;
+  position: absolute;
+  display: inline-block;
+  border: 2px solid rgb(213, 213, 213);
+  padding: 6px;
+  border-radius: 5px 0 0 5px;
+}
+
+.reblog-button{
+  position: absolute;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.reblog-icon{
+  width: 24px;
+  border: 2px solid rgb(213, 213, 213);
+  padding: 6px;
+  margin-left: 19px;
+}
+
+.share-button{
+  position: absolute;
+  display: inline-block;
+  padding-left: 53px;
+}
+
+.share-icon{
+  width: 27px;
+  border: 2px solid rgb(213, 213, 213);
+  padding: 6px;
+  margin-left: 24px;
+  border-radius: 0 5px 5px 0;
+}
+
+.tumblr-date{
+  display: inline-block;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(187, 187, 187);
+  padding-left: 41.4%;
+  position: absolute;
+  padding-top: 12px;
+}
+
+.navigation{
   display: block;
+  border-top: 2px solid rgb(213, 213, 213);
+  border-bottom: 2px solid rgb(213, 213, 213);
+  font-family: 'Open Sans', sans-serif;
+  height: 60px;
+  margin-top: 100px;
+}
+
+.newer{
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: rgb(213, 213, 213);
+}
+
+.newer-posts{
+  display: inline-block;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(213, 213, 213);
+  font-size: 16px;
+  padding-left: 60px;
+  padding-top: 24px;
+}
+
+
+.left-arrow{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    padding-right: 0px;
+    padding-top: 4.5px;
+}
+
+.older{
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(187, 187, 187);
+  position: absolute;
+  right: 25.5%;
+}
+
+.older-posts{
+  right: 38px;
+  padding-top: 24px;
+  display: inline-block;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(174, 174, 174);
+  font-size: 16px;
+}
+
+.right-arrow{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+    padding-left: 21.8%;
+    padding-top: 2.5px;
+}
+
+
+.sticky-wrapper{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+  border: 2px solid rgb(213, 213, 213);
   vertical-align: bottom;
   box-sizing: border-box;
 }
 
 .top-wrap{
-
+  display: block;
+  border-bottom: 2px solid rgb(213, 213, 213);
+  font-size: 18px;
+  font-family: 'Opens Sans', sans-serif;
 }
 
 .never{
-
+  display: inline-block;
+  padding-left: 8px;
+  color: black;
 }
 
 .closewindow{
-
+  display: inline-block;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(213, 213, 213);
+  padding-left: 97px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .bottom-wrap{
-
+  display: block
 }
 
 .footerleft{
-
+  display: inline-block;
+  position: absolute; 
+  width: 56px;
+  margin: 6px 1px 5px 6px;
+  position: absolute;
+  padding-bottom: 0px;
 }
-
 .mid-wrap{
-
+display: inline-block;
 }
-
-.tiydc1{
-
+.tiydc{
+  vertical-align: top;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  padding: 4px 2px 2px 70px;
+  margin-top: 10px;
 }
 
 .tiydc2{
-
+  display: block;
+  position: relative;
+  color: rgb(213, 213, 213);
+  font-family: 'Open San', sans-serif;
+  font-size: 15px;
+  margin-top: 14px;
+  padding-left: 70px;
 }
 
 .follow{
-
+  display: inline-block;
+  border-radius: 5px;
+  position: absolute;
+  float: right;
+  height: 25px;
+  padding: 2px 15px;
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: bold;
+  background-color: rgb(85,159,202);
+  bottom: 11px;
+  left: 71%;
+  min-width: 100px;
 }
+
+.follow-link:link{
+  color: rgb(255, 255, 255);
+}
+
+.follow-link:visited{
+  color: rgb(255, 255, 255);
+}
+
